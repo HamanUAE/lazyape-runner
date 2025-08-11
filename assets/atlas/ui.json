@@ -1,1 +1,9 @@
-
+{
+"version": 1,
+"images": [
+{ "key": "sparkle", "path": "assets/ui/sparkle.png", "anchor": [0.5, 0.5] }
+],
+"hud": [
+{ "key": "hud_coin_icon", "from": "sparkle", "tint": "#FFD54A", "note": "placeholder" }
+]
+}

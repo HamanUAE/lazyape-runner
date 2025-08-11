@@ -1,1 +1,18 @@
-
+{
+"version": 1,
+"coins": [
+{
+"key": "coin_static",
+"path": "assets/collectables/coin_static.png",
+"anchor": [0.5, 0.5],
+"shadow": { "key": "shadow_oval", "offsetY": 10, "scale": 0.6 }
+}
+],
+"vfx": [
+{
+"key": "sparkle",
+"path": "assets/ui/sparkle.png",
+"anchor": [0.5, 0.5]
+}
+]
+}

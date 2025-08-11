@@ -1,1 +1,38 @@
-
+{
+"version": 1,
+"states": [
+{
+"name": "run",
+"frames": [
+{ "key": "runner_back", "path": "assets/monkey/runner_back.png", "anchor": [0.5, 1.0] }
+],
+"fps": 12,
+"loop": true
+},
+{
+"name": "jump",
+"frames": [
+{ "key": "runner_jump", "path": "assets/monkey/runner_jump.png", "anchor": [0.5, 1.0] }
+],
+"fps": 12,
+"loop": false
+},
+{
+"name": "slide",
+"frames": [
+{ "key": "runner_slide", "path": "assets/monkey/runner_slide.png", "anchor": [0.5, 1.0] }
+],
+"fps": 12,
+"loop": false
+},
+{
+"name": "hit",
+"frames": [
+{ "key": "runner_hit", "path": "assets/monkey/runner_hit.png", "anchor": [0.5, 1.0] }
+],
+"fps": 12,
+"loop": false
+}
+],
+"defaultState": "run"
+}

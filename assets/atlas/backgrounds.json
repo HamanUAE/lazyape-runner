@@ -1,37 +1,10 @@
 {
-"version": 1,
 "images": [
 { "key": "bg_far", "path": "assets/backgrounds/bg_far.png" },
 { "key": "bg_mid", "path": "assets/backgrounds/bg_mid.png" },
-{ "key": "bg_near", "path": "assets/backgrounds/bg_near.png" }
-],
-"tiles": [
-{
-"key": "ground_tile",
-"path": "assets/backgrounds/ground_tile.png",
-"repeatX": true,
-"repeatY": false,
-"pxSize": [1024, 256],
-"scrollSpeed": 1.0
-}
-],
-"decals": [
-{
-"key": "lane_marker",
-"path": "assets/backgrounds/lane_marker.png",
-"anchor": [0.5, 0.5],
-"pxSize": [512, 64]
-},
-{
-"key": "shadow_oval",
-"path": "assets/backgrounds/shadow_oval.png",
-"anchor": [0.5, 0.5],
-"pxSize": [256, 128]
-}
-],
-"parallax": [
-{ "key": "bg_far", "ratio": 0.15 },
-{ "key": "bg_mid", "ratio": 0.35 },
-{ "key": "bg_near", "ratio": 0.65 }
+{ "key": "bg_near", "path": "assets/backgrounds/bg_near.png" },
+{ "key": "ground_tile", "path": "assets/backgrounds/ground_tile.png" },
+{ "key": "lane_marker", "path": "assets/backgrounds/lane_marker.png" },
+{ "key": "shadow_oval", "path": "assets/backgrounds/shadow_oval.png" }
 ]
 }

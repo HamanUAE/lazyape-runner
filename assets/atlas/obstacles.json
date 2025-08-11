@@ -1,1 +1,48 @@
-
+{
+"version": 1,
+"images": [
+{
+"key": "archway_stone",
+"path": "assets/backgrounds/obstacles/archway_stone.png",
+"anchor": [0.5, 1.0],
+"hitbox": { "w": 0.8, "h": 0.8, "offsetY": 0.0 }
+},
+{
+"key": "barrier_wood_high",
+"path": "assets/backgrounds/obstacles/barrier_wood_high.png",
+"anchor": [0.5, 1.0],
+"type": "jump"
+},
+{
+"key": "barrier_wood_low",
+"path": "assets/backgrounds/obstacles/barrier_wood_low.png",
+"anchor": [0.5, 1.0],
+"type": "slide"
+},
+{
+"key": "crate_box",
+"path": "assets/backgrounds/obstacles/crate_box.png",
+"anchor": [0.5, 1.0],
+"type": "jump"
+},
+{
+"key": "fallen_tree_high",
+"path": "assets/backgrounds/obstacles/fallen_tree_high.png",
+"anchor": [0.5, 1.0],
+"type": "slide"
+},
+{
+"key": "fallen_tree_low",
+"path": "assets/backgrounds/obstacles/fallen_tree_low.png",
+"anchor": [0.5, 1.0],
+"type": "jump"
+},
+{
+"key": "rock_small",
+"path": "assets/backgrounds/obstacles/rock_small.png",
+"anchor": [0.5, 1.0],
+"type": "jump"
+}
+],
+"collisionMap": "assets/backgrounds/obstacles/collision_map.json"
+}

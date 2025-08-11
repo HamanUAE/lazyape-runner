@@ -1,0 +1,47 @@
+{
+  "assets/obstacles/barrier_wood_low.png": {
+    "type": "slide",
+    "width": 0.9,
+    "height": 0.6,
+    "yAnchor": "ground"
+  },
+  "assets/obstacles/barrier_wood_high.png": {
+    "type": "jump",
+    "width": 0.9,
+    "height": 1.2,
+    "yAnchor": "ground"
+  },
+  "assets/obstacles/crate_box.png": {
+    "type": "jump",
+    "width": 0.8,
+    "height": 0.9,
+    "yAnchor": "ground"
+  },
+  "assets/obstacles/fallen_tree_low.png": {
+    "type": "slide",
+    "width": 0.9,
+    "height": 0.6,
+    "yAnchor": "ground"
+  },
+  "assets/obstacles/fallen_tree_high.png": {
+    "type": "jump",
+    "width": 0.9,
+    "height": 1.0,
+    "yAnchor": "ground"
+  },
+  "assets/obstacles/rock_small.png": {
+    "type": "jump",
+    "width": 0.6,
+    "height": 0.6,
+    "yAnchor": "ground"
+  },
+  "assets/obstacles/archway_stone.png": {
+    "type": "gate",
+    "width": 1.0,
+    "height": 1.6,
+    "yAnchor": "ground",
+    "passages": [
+      "center"
+    ]
+  }
+}
